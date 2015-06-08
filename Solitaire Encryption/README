@@ -3,9 +3,9 @@ First clean the directory
 Compile the directory 
 >> make
 Encrypt the message in file secret_decrypt.txt using deck1.txt as the key 
->> ./sol -e -d deck1.txt -m secret_decrypt.txt
+>> ./sol -E -d deck1.txt -m secret_decrypt.txt
 Now, Decrypt the message in file secret.txt using the same key (deck1.txt) 
->> ./sol -d -d deck1.txt -m secret.txt
+>> ./sol -D -d deck1.txt -m secret.txt
 You should see that the encrypted message for secret_decrypt.txt is the same as secret.txt
 Similarly, the decrypted message for secret.txt is the same as secret_decrypt.txt
 
